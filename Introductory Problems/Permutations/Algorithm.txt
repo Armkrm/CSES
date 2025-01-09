@@ -1,0 +1,8 @@
+this one is strange a bit, but we can do it.
+first we take n and organize like this:
+    if n equal 1, you can see it just can be "1".
+    then for other numbers that not equal to 1 and less than 4, can't make wanted arrey.
+    then if n equal 4, one of example is "2 4 1 3". so we put it on output.
+    else, we use some werid algorithm. as you can see, it's some algorithm to explore all numbers and don't see any unwanted
+    number. so in this way we can make one example for that n. but remember that this is just one example. then output the maked
+    array.

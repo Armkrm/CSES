@@ -1,0 +1,5 @@
+first define an array named "a" and a variable named "c" for save all move we need.
+then take all inputs step by step. for each inputs, we have two options:
+    1- it's bigger or equal to the last one. so we don't need to move.
+    2- it's less than the last one. so we need to move. but how much? as much as their difference. so we add this much to "c"
+it's all! so at end we output "c".

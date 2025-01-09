@@ -1,0 +1,7 @@
+first we need to make a string variable. then take and store the input string. 
+then set two more variable for max block size and current block size. 
+after that explore on the string with a for. and check somethings:
+    if we are in a block, add one to current block size. (first if)
+    if our current block size set a new record and be bigger than max block size, put max block size equal to block size. (secend if)
+    if the block changed, reset current block size to one. (third if)
+if we do this algorithm at end we check all of the block and return the maximum length of them.

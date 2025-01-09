@@ -1,0 +1,9 @@
+we want to write an algorithm which:
+if n is even --> n = n / 2
+if n is odd  --> n = n * 3 + 1
+All right. first we make a vector to store our results. it's type is long long int and named "ans".
+then we use recursive function that named "solve". for all inputs, if n is even, the function divides it by two.
+else, if n is odd, the function multiplies it by three and adds one.
+at end, put n in our vector and recall solve function. 
+whenever n is equal to one, it must be our final step, so it is! and the function return 1 to put it in the ans vector.
+in the main part, we give n for input and get it to solve function. then we get ans vector as output.
