@@ -1,0 +1,13 @@
+At the beginning, we define t and take x and y as the numbers. For each x and y, we execute the
+solve function once.
+By carefully looking at the table, we realize that if x is even, the next x number is descending and proceeds in order,
+and if x is odd, the next x number is ascending.
+Similarly, if y is even, the lower y number is ascending and if y is odd, the lower y number is descending.
+Also, if x is even or y is odd, the first number x or y is a power of 2.
+With these points in mind, we proceed and write the solve function.
+We start with the condition. First, we check whether x is larger or y. This is so that we can make sure that the smaller number
+is in the predictable region of the larger number. (For y, y is the lower number and for x, x is the next number, so if we
+know which one is larger, we can be sure that the other number is definitely within the predictable region.)
+We assume that x is larger than y (similar conditions exist for y to be larger than x).
+So we need to find what the number in the first column of row x is. For this, we use the same power of two property of some 
+numbers. Now we can easily predict and announce the desired number.
