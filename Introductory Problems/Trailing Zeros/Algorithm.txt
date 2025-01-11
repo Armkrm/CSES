@@ -1,0 +1,6 @@
+every zeros made from one 2 and one 5. in fact, numbers of 5 is less than numbers of 2. so if we can find how many 5 we have,
+we can say how many 0 we have.
+in analysis function we find out how many 5 we have in one number. for example if we input the function with 150, function return
+2. because 150 = 2 * 3 * 5 * 5. so there is two 5.
+we run this function for all numbers that made from 5. 
+and at the end, we print how many 5 we have that epual how many 0 we have.

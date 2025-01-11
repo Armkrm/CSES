@@ -1,0 +1,4 @@
+For each position we have two choices. It is either 0 or 1. So for input n our output should be the remainder of 2 to the power
+of n times 10**9+7.
+Since we cannot store a number as large as 2 to the power of 1000000 in C++, we have to use another method.
+Step by step we calculate the remainder of that number. In this way the numbers become much smaller and can be stored easily.
