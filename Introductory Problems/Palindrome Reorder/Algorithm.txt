@@ -1,0 +1,9 @@
+The code starts by counting how many times each character appears in the input string using a map. If more than one character
+has an odd frequency, the code outputs `NO SOLUTION` because forming a palindrome would be impossible.
+
+If it’s valid, the code constructs the palindrome:
+    1. For characters with even counts, half of them are added to the first half of the palindrome.
+    2. If there’s a character with an odd count, it’s placed in the center.
+    3. The second half of the palindrome is created by reversing the first half and appending it to the result.
+
+This ensures the resulting string is symmetric and satisfies the properties of a palindrome.

@@ -1,4 +1,4 @@
 Programed By:	    Arman Karimi
-Submission time:	2023-12-17 21:06:47 +0200
+Submission time:	2025-01-12 11:02:37 +0200
 Language:	        C++ (C++11)
 Result:	            ACCEPTED

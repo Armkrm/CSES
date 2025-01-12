@@ -1,0 +1,17 @@
+This problem is solved with a number of configurations.
+
+The first case is that one of the numbers is 0 but the other is not 0, we cannot make their pair zero. Because each move 
+we make subtracts a value from both. So if it is 0, we cannot make a move on one of them. Of course, if both are 0, they are 
+correct from the beginning and there is no need to move at all!
+
+The second case is that the smaller number cannot be less than half the larger number. This is obvious because the maximum 
+difference we can make is by adding 2 to one group and 1 to the other at each step. In this case, we have a group of n and
+a group of 2n. So it is impossible for the smaller number to be smaller than half the larger number.
+
+The third case is somewhat different. We can subtract 3 for each of the two moves that are symmetrical (i.e. subtract two 
+from group a once and one from group b and the next time subtract one from a and two from b). So in this case, if we calculate 
+the remaining number in each group to 3, we can see that if it can be made, it must either be both 0 or one 1 and the other 2.
+
+Other cases cannot be made.
+This is how it can be easily answered.
+If you have any questions, ask me. My Telegram and Gmail accounts are in README.md.
