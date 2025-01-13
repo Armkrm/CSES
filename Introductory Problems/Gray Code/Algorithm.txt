@@ -1,0 +1,4 @@
+all point of this task is to generate Gray codes using a simple formula: G(n) = n XOR (n >> 1).  
+we use a loop from 0 to 2^n - 1 to calculate each code.  
+for every number in the range, we apply the formula to get the Gray code and print its binary form by extracting bits.  
+the outer loop handles each number, and the inner loop extracts bits for output in binary format.
