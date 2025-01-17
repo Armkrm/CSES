@@ -1,0 +1,17 @@
+The first thing we do is to take the variable n as input. Which is the input of the question. Then we calculate the number of
+moves we need, which is always equal to 2^n -1 which is equal to 1 <<n -1.
+
+Then we design a function to calculate the method. This is a recursive function. The function description is as follows:
+    1- If our input (n) was equal to 1, all we need to do is move the only piece we have from the column where the pieces are
+    (source) to the column we want to move (target). So we print this and then end the recursive function loop.
+
+    2- If the input is not 1, we do the following in order.
+        Step 1: Move n-1 disks from source to auxiliary.
+        Step 2: Move the disk from source to target.
+        Step 3: Move n-1 disks from auxiliary to target.
+
+We run this function with the following inputs at the beginning.
+    First input: The number of pieces we have (initially n)
+    Second input: The column where the pieces are initially located. (Column 1)
+    Third input: The column we want to move the pieces to. (Column 3)
+    Fourth input: Auxiliary column (Column 2)
